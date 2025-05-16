@@ -17,7 +17,7 @@ import './Order.css';
 import AboutUs from './AboutUs';
 import ContactUs from './ContactUs';
 import PageNotFound from './PageNotFound';
-import Fruits from './fruits';
+import Fruits from './Fruits';
 import SignIn from './SignIn';
 import SignUp from './SignUp';
 //import SignUp from './SignUp';
@@ -75,7 +75,7 @@ function AppContent() {
           <Route path="/Home" element={<Home />} />
           <Route path="/veg" element={<Veg />} />
           <Route path="/nonveg" element={<NonVeg />} />
-          <Route path="/fruits" element={<Fruits />} />
+          <Route path="/fruits" element={<Fruits/>} />
           <Route path="/milk" element={<MilkProducts />} />
           <Route path="/cart" element={<CartComponent />} />
           <Route path="/order" element={<Order />} />
