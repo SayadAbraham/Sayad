@@ -11,6 +11,7 @@ import Home from './Home';
 import MilkProducts from './MilkProducts';
 import './Basket.css';
 import './App.css';
+import './AboutUs.css'
 import CartComponent from './cartComponent';
 import Order from './Order';
 import './Order.css';
@@ -72,7 +73,7 @@ function AppContent() {
       <HeaderWithCart />
       <div className="page">
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/Home" element={<Home/>} />
           <Route path="/veg" element={<Veg />} />
           <Route path="/nonveg" element={<NonVeg />} />
           <Route path="/fruits" element={<Fruits/>} />
