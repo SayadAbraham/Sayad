@@ -1,0 +1,38 @@
+.about-container {
+    padding: 2rem;
+    background-color: #f8f9fa; /* Bootstrap light gray */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .about-container h1 {
+    color: #28a745; /* Bootstrap success color */
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .about-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .about-container h3 {
+    margin-top: 2rem;
+    color: #155724; /* Dark green tone */
+  }
+  
+  .about-container ul {
+    list-style: square;
+    margin-left: 1.5rem;
+    font-size: 1.05rem;
+    padding-left: 1rem;
+  }
+  
+  .about-container blockquote {
+    font-style: italic;
+    background-color: #e9f7ef; /* Light green */
+    padding: 1rem;
+    border-left: 4px solid #28a745;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  

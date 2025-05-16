@@ -1,0 +1,120 @@
+
+/* Container for the entire Home page */
+.home-container {
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  /* Hero Banner */
+  .home-banner {
+    background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);
+    padding: 3rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .home-banner h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #155724;
+  }
+  
+  .home-banner p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 0.5rem;
+  }
+  
+  /* Shop Now Button */
+  .shop-now-btn {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #28a745;
+    color: #fff !important;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Categories */
+  .category-highlights {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .category-highlights h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    color: #343a40;
+  }
+  
+  /* Category Cards */
+  .category-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .category-card {
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.75rem;
+    color: #212529;
+    font-weight: 500;
+    text-decoration: none;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .category-card:hover {
+    background-color: #e6ffe6;
+    transform: translateY(-4px);
+    box-shadow: 0 0.5rem 1rem rgba(40, 167, 69, 0.2);
+  }
+  
+  /* Promo Section */
+  .home-promo {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+  }
+  
+  .home-promo h3 {
+    color: #28a745;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-promo ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .home-promo ul li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #495057;
+  }
+  
+  /* Footer */
+  .home-footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem 0;
+    font-size: 0.95rem;
+    color: #6c757d;
+  }
+  
